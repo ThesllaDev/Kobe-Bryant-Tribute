@@ -8,3 +8,44 @@ $white-color: #f1f1f1;
 // GAPS VARIABLES GUIDE
 $large-gap: 24px;
 $small-gap: 8px;
+
+body {
+    background-color: $primary-purple;
+}
+
+.navbar- {
+    &brand {
+        font-weight: bold;
+    }
+
+    &toggler {
+        background-color: $secondary-golden;
+        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+    }
+}
+
+.nav-link {
+    align-items: center;
+    color: $white-color;
+    display: flex;
+
+    svg {
+        margin-right: $small-gap;
+    }
+}
+
+.dropdown-menu {
+    background-color: $secondary-purple;
+}
+
+.dropdown-item {
+    color: $white-color;
+}
+
+@media (min-width: 991px) {
+    .navbar-expanded {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}

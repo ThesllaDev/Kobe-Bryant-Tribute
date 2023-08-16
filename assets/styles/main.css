@@ -1,0 +1,36 @@
+body {
+  background-color: #552583;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+.navbar-toggler {
+  background-color: #FDB927;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.nav-link {
+  align-items: center;
+  color: #f1f1f1;
+  display: flex;
+}
+.nav-link svg {
+  margin-right: 8px;
+}
+
+.dropdown-menu {
+  background-color: rgb(128, 99, 156);
+}
+
+.dropdown-item {
+  color: #f1f1f1;
+}
+
+@media (min-width: 991px) {
+  .navbar-expanded {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+}
