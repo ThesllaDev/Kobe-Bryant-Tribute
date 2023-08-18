@@ -80,6 +80,42 @@ body {
     border-color: $black-color;
 }
 
+#about {
+
+    div {
+        background-color: $secondary-purple;
+        border-radius: $small-gap;
+        box-shadow: $small-gap $small-gap $small-gap $small-gap rgba(0, 0, 0, 0.5);
+        margin-bottom: $large-gap;
+        padding: $large-gap $small-gap;
+    }
+
+    p {
+        margin-bottom: 24px;
+    }
+}
+
+.title-section {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+
+    svg {
+        color: $black-color;
+        height: 50px;
+        margin-right: $small-gap;
+        width: 50px;
+    }
+}
+
+p {
+    font-weight: 600;
+    margin: 0 auto;
+    max-width: 80ch;
+    text-align: center;
+}
+
 @media (min-width: 991px) {
     .navbar-expanded {
         align-items: center;
