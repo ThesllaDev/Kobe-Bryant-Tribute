@@ -139,6 +139,1324 @@
                     </p>
                 </div>
             </section>
+
+            <section id="timeline">
+                <header class="title-section">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-calendar-week" viewBox="0 0 16 16">
+                        <path
+                            d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
+                        <path
+                            d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+                    </svg>
+                    <h2>Timeline</h2>
+                </header>
+
+                <p class="timeline-description">Escolha o ano da temporada para ver mais informações:</p>
+
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item dropdown" role="presentation">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">1996 - 2001</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#" id="96-97-tab" data-bs-toggle="tab"
+                                    data-bs-target="#96-97-tab-pane" role="tab" aria-controls="96-97-tab-pane"
+                                    aria-selected="true">1996-1997
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" id="97-98-tab" data-bs-toggle="tab"
+                                    data-bs-target="#97-98-tab-pane" role="tab" aria-controls="97-98-tab-pane"
+                                    aria-selected="false">1997-1998
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" id="98-99-tab" data-bs-toggle="tab"
+                                    data-bs-target="#98-99-tab-pane" role="tab" aria-controls="98-99-tab-pane"
+                                    aria-selected="false">1998-1999
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" id="99-00-tab" data-bs-toggle="tab"
+                                    data-bs-target="#99-00-tab-pane" role="tab" aria-controls="99-00-tab-pane"
+                                    aria-selected="false">1999-2000
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" id="00-01-tab" data-bs-toggle="tab"
+                                    data-bs-target="#00-01-tab-pane" role="tab" aria-controls="00-01-tab-pane"
+                                    aria-selected="false">2000-2001
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown" role="presentation">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">2001 - 2006</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#" id="01-02-tab" data-bs-toggle="tab"
+                                    data-bs-target="#01-02-tab-pane" role="tab" aria-controls="01-02-tab-pane"
+                                    aria-selected="false">2001-2002
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" id="02-03-tab" data-bs-toggle="tab"
+                                    data-bs-target="#02-03-tab-pane" role="tab" aria-controls="02-03-tab-pane"
+                                    aria-selected="false">2002-2003
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" id="03-04-tab" data-bs-toggle="tab"
+                                    data-bs-target="#03-04-tab-pane" role="tab" aria-controls="03-04-tab-pane"
+                                    aria-selected="false">2003-2004
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" id="04-05-tab" data-bs-toggle="tab"
+                                    data-bs-target="#04-05-tab-pane" role="tab" aria-controls="04-05-tab-pane"
+                                    aria-selected="false">2004-2005
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" id="05-06-tab" data-bs-toggle="tab"
+                                    data-bs-target="#05-06-tab-pane" role="tab" aria-controls="05-06-tab-pane"
+                                    aria-selected="false">2005-2006
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown" role="presentation">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">2006 - 2011</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#" id="06-07-tab" data-bs-toggle="tab"
+                                    data-bs-target="#06-07-tab-pane" role="tab" aria-controls="06-07-tab-pane"
+                                    aria-selected="false">2006 - 2007
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" id="07-08-tab" data-bs-toggle="tab"
+                                    data-bs-target="#07-08-tab-pane" role="tab" aria-controls="07-08-tab-pane"
+                                    aria-selected="false">2007 - 2008
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" id="08-09-tab" data-bs-toggle="tab"
+                                    data-bs-target="#08-09-tab-pane" role="tab" aria-controls="08-09-tab-pane"
+                                    aria-selected="false">2008 - 2009
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" id="09-10-tab" data-bs-toggle="tab"
+                                    data-bs-target="#09-10-tab-pane" role="tab" aria-controls="09-10-tab-pane"
+                                    aria-selected="false">2009 - 2010
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" id="10-11-tab" data-bs-toggle="tab"
+                                    data-bs-target="#10-11-tab-pane" role="tab" aria-controls="10-11-tab-pane"
+                                    aria-selected="false">2010 - 2011
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown" role="presentation">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">2011 - 2020</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#" id="11-12-tab" data-bs-toggle="tab"
+                                    data-bs-target="#11-12-tab-pane" role="tab" aria-controls="11-12-tab-pane"
+                                    aria-selected="false">2011 - 2012
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" id="12-13-tab" data-bs-toggle="tab"
+                                    data-bs-target="#12-13-tab-pane" role="tab" aria-controls="12-13-tab-pane"
+                                    aria-selected="false">2012 - 2013
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" id="13-14-tab" data-bs-toggle="tab"
+                                    data-bs-target="#13-14-tab-pane" role="tab" aria-controls="13-14-tab-pane"
+                                    aria-selected="false">2013 - 2014
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" id="14-15-tab" data-bs-toggle="tab"
+                                    data-bs-target="#14-15-tab-pane" role="tab" aria-controls="14-15-tab-pane"
+                                    aria-selected="false">2014 - 2015
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" id="15-16-tab" data-bs-toggle="tab"
+                                    data-bs-target="#15-16-tab-pane" role="tab" aria-controls="15-16-tab-pane"
+                                    aria-selected="false">2015 - 2016
+                                </a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" id="total-tab" data-bs-toggle="tab"
+                                    data-bs-target="#total-tab-pane" role="tab" aria-controls="total-tab-pane"
+                                    aria-selected="false">Total of career highlights and awards</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" id="18-tab" data-bs-toggle="tab"
+                                    data-bs-target="#18-tab-pane" role="tab" aria-controls="18-tab-pane"
+                                    aria-selected="false">2018
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" id="20-tab" data-bs-toggle="tab"
+                                    data-bs-target="#20-tab-pane" role="tab" aria-controls="20-tab-pane"
+                                    aria-selected="false">2020
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade" id="96-97-tab-pane" role="tabpanel" aria-labelledby="96-97-tab"
+                        tabindex="0">
+                        <h3 class="title-timeline">1996-1997</h3>
+                        <p>
+                            Kobe foi draftado pela <abbr title="National Basketball Association">NBA</abbr> na Rodada: 1
+                            / Escolha: 13º geral. Selecionado por Charlotte Hornets e negociado com o Los Angeles Lakers
+                            em troca de Vlade Divac.
+                        </p>
+                        <p>
+                            Bryant estreou na Summer Pro League em Long Beach, Califórnia, marcando 25 pontos.
+                            Na época, ele era o segundo jogador mais jovem a disputar uma partida da
+                            <abbr title="National Basketball Association">NBA</abbr> (18 anos e 72 dias) e também o mais
+                            jovem titular da <abbr title="National Basketball Association">NBA</abbr> (18 anos e 158
+                            dias).
+                        </p>
+                        <p>
+                            Durante o fim de semana do All-Star, Bryant participou do Rookie Challenge e venceu o Slam
+                            Dunk Contest de 1997, tornando-se o mais jovem campeão de enterradas aos 18 anos.
+                        </p>
+                        <p>
+                            O desempenho de Bryant ao longo do ano lhe rendeu uma vaga no
+                            <abbr title="National Basketball Association">NBA</abbr> All-Rookie Second Team com
+                            o companheiro de equipe Travis Knight.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                Slam Dunkest Contest Champion
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Rookie Second Team
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="97-98-tab-pane" role="tabpanel" aria-labelledby="97-98-tab"
+                        tabindex="0">
+                        <h3 class="title-timeline">1997-1998</h3>
+                        <p>
+                            Na segunda temporada de Bryant, ele teve mais tempo de jogo e começou a mostrar mais suas
+                            habilidades como um jovem armador talentoso. Como resultado, a média de pontos de Bryant
+                            mais que dobrou, passando de 7,6 para 15,4 pontos por jogo. Os 15,4 pontos de Bryant por
+                            jogo foram os mais altos de todos os não titulares nesta temporada.
+                        </p>
+                        <p>
+                            Bryant foi o sexto homem do ano da
+                            <abbr title="National Basketball Association">NBA</abbr> e, por meio da votação dos fãs,
+                            também se tornou o mais jovem titular do NBA All-Star na história da
+                            <abbr title="National Basketball Association">NBA</abbr>.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Star
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="98-99-tab-pane" role="tabpanel" aria-labelledby="98-99-tab"
+                        tabindex="0">
+                        <h3 class="title-timeline">1998-1999</h3>
+                        <p>A temporada de 1998-99 marcou o surgimento de Bryant como o melhor armador da liga.</p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                All NBA Third Team
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="99-00-tab-pane" role="tabpanel" aria-labelledby="99-00-tab"
+                        tabindex="0">
+                        <h3 class="title-timeline">1999-2000</h3>
+                        <p>
+                            Ele se autodenominou "Black Mamba" em meados dos anos 2000, e o epíteto foi amplamente
+                            adotado pelo público em geral.
+                        </p>
+                        <p>
+                            Bryant ficou afastado por seis semanas antes do início da temporada 1999-2000 devido a uma
+                            lesão na mão que sofreu durante um jogo de pré-temporada contra o Washington Wizards. Quando
+                            Bryant estava de volta e jogando mais de 38 minutos por jogo, ele teve um aumento em todas
+                            as categorias estatísticas durante a temporada 1999-2000.
+                        </p>
+                        <p>
+                            Nas finais de 2000, contra o Indiana Pacers, Bryant machucou o tornozelo no segundo quarto
+                            do jogo 2 após cair no pé de Jalen Rose do Pacers.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                All-NBA Second Team
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA Champion
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Star
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Defensive First Team (pela primeira vez em sua carreira e o jogador mais jovem a
+                                receber honras de All-Defensive)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="00-01-tab-pane" role="tabpanel" aria-labelledby="00-01-tab"
+                        tabindex="0">
+                        <h3 class="title-timeline">2000-2001</h3>
+                        <p>
+                            Ganhou dois campeonatos seguidos.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA Champion
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Star
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                All-NBA Second Team
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Defensive Second Team
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="01-02-tab-pane" role="tabpanel" aria-labelledby="01-02-tab"
+                        tabindex="0">
+                        <h3 class="title-timeline">2001-2002</h3>
+                        <p>
+                            Em 14 de janeiro de 2002, Bryant registrou 56 pontos, o recorde de sua carreira, além de
+                            cinco rebotes e quatro assistências na vitória por 120-81 sobre o Memphis Grizzlies.
+                        </p>
+                        <p>
+                            <abbr title="National Basketball Association">NBA</abbr> Championship (Aos 23 anos, Bryant
+                            se tornou o jogador mais jovem a vencer três campeonatos).
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA Championship
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Star
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Star Game MVP
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                All-NBA First Team
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Defensive Second Team
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="02-03-tab-pane" role="tabpanel" aria-labelledby="02-03-tab"
+                        tabindex="0">
+                        <h3 class="title-timeline">2002-2003</h3>
+                        <p>
+                            Ele estabeleceu um recorde da <abbr title="National Basketball Association">NBA</abbr> de
+                            três pontos em um jogo em 7 de janeiro de 2003, quando converteu 12 bolas de três pontos
+                            contra o Seattle SuperSonics.
+                        </p>
+                        <p>
+                            Bryant teve uma média de 30 pontos por jogo e embarcou em uma corrida histórica, registrando
+                            40 ou mais pontos em nove jogos consecutivos, com média de 40,6 em todo o mês de fevereiro.
+                        </p>
+                        <p>
+                            Além disso, ele teve média de 6,9 rebotes, 5,9 assistências e 2,2 roubos de bola por jogo,
+                            todos os recordes da carreira até aquele momento.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Star
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                All-NBA First Team
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Defensive First Team
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="03-04-tab-pane" role="tabpanel" aria-labelledby="03-04-tab"
+                        tabindex="0">
+                        <h3 class="title-timeline">2003-2004</h3>
+                        <p>
+                            Em 20 de dezembro de 2005, Bryant marcou 62 pontos em três quartos contra o Dallas
+                            Mavericks.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Star
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                All-NBA Third Team
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="04-05-tab-pane" role="tabpanel" aria-labelledby="04-05-tab"
+                        tabindex="0">
+                        <h3 class="title-timeline">2004-2005</h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Star
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                All-NBA First Team
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Defensive First Team
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="05-06-tab-pane" role="tabpanel" aria-labelledby="05-06-tab"
+                        tabindex="0">
+                        <h3 class="title-timeline">2005-2006</h3>
+                        <p>
+                            Em 22 de janeiro de 2006, Bryant marcou 81 pontos na vitória por 122 a 104 sobre o Toronto
+                            Raptors. Além da franquia ter quebrado o recorde anterior de 71 pontos estabelecido por
+                            Elgin Baylor, o jogo de 81 pontos de Bryant foi o segundo maior total de pontos na história
+                            da <abbr title="National Basketball Association">NBA</abbr>, superado apenas pelo jogo de
+                            100 pontos de Chamberlain em 1962.
+                        </p>
+                        <p>
+                            Nesse mesmo ano, Bryant também se tornou o primeiro jogador desde 1964 a marcar 45 pontos ou
+                            mais em quatro jogos consecutivos, juntando-se a Chamberlain e Baylor como os únicos
+                            jogadores a terem conseguido tal feito.
+                        </p>
+                        <p>
+                            No mês de janeiro, Bryant teve uma média de 43,4 pontos por jogo, a maior média de
+                            desempenho em um mês na história da <abbr title="National Basketball Association">NBA</abbr>
+                            e a maior para um jogador que não seja Chamberlain.
+                        </p>
+                        <p>
+                            Ele conquistou o título de maior pontuador da liga pela primeira vez com média de 35,4
+                            pontos por jogo, tornando-se apenas o quinto jogador na história da liga com média de pelo
+                            menos 35 em uma temporada.
+                        </p>
+                        <p>
+                            Mais tarde na temporada, foi confirmado que Bryant mudaria o número de sua camisa de 8 para
+                            24 no início da temporada 2006-07. O primeiro número escolar de Bryant foi 24 antes de mudar
+                            para 33.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Star
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                All-NBA First Team
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Defensive First Team
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA Scoring Champion
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="06-07-tab-pane" role="tabpanel" aria-labelledby="06-07-tab"
+                        tabindex="0">
+                        <h3 class="title-timeline">2006 - 2007</h3>
+                        <p>
+                            Durante a temporada de 2006-07, Bryant foi selecionado para sua nona participação no
+                            All-Star Game e, em 18 de fevereiro, registrou 31 pontos, 6 assistências e 6 roubos de bola,
+                            ganhando seu segundo troféu de MVP do All-Star Game.
+                        </p>
+                        <p>
+                            Em 16 de março, Bryant marcou 65 pontos, o recorde da temporada, em um jogo em casa contra o
+                            Portland Trail Blazers, o que ajudou a encerrar a seqüência de sete derrotas consecutivas do
+                            Lakers. Este foi o segundo melhor desempenho de pontuação em seus 11 anos de carreira.
+                        </p>
+                        <p>
+                            No jogo seguinte, Bryant marcou 50 pontos contra o Minnesota Timberwolves, depois dos quais
+                            marcou 60 pontos em uma vitória fora de casa contra o Memphis Grizzlies - tornando-se o
+                            segundo Laker a marcar três jogos consecutivos com mais de 50 pontos, um feito nunca visto
+                            desde então. Jordan fez isso pela última vez em 1987.
+                        </p>
+                        <p>
+                            Ao longo da temporada 2006-07, sua camisa se tornou a mais vendida da NBA nos Estados Unidos
+                            e na China.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Star
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Star Game MVP
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                All-NBA First Team
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Defensive First Team
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA Scoring Champion
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="07-08-tab-pane" role="tabpanel" aria-labelledby="07-08-tab"
+                        tabindex="0">
+                        <h3 class="title-timeline">2007 - 2008</h3>
+                        <p>
+                            Em 23 de dezembro de 2007, Bryant se tornou o jogador mais jovem (29 anos e 122 dias) a
+                            atingir 20 mil pontos, em um jogo contra o New York Knicks no Madison Square Garden, após
+                            marcar 39 pontos, 11 rebotes e 8 assistências. Este recorde foi quebrado por LeBron
+                            James.
+                        </p>
+                        <p>
+                            Em 28 de março, Bryant marcou 53 pontos e 10 rebotes na derrota para o Memphis Grizzlies.
+                        </p>
+                        <p>
+                            Apesar de uma lesão no dedo mínimo da mão de arremesso, descrita como "uma ruptura completa
+                            do ligamento colateral radial, uma fratura por avulsão e uma lesão na placa volar na
+                            articulação MCP" que ocorreu em um jogo em 5 de fevereiro de 2008, Bryant jogou todos os 82
+                            jogos da temporada regular em vez de optar pela cirurgia. Sobre sua lesão, ele afirmou: "Eu
+                            preferiria adiar qualquer procedimento cirúrgico para depois da temporada do Lakers e das
+                            Olimpíadas deste verão.
+                        </p>
+                        <p>
+                            Auxiliado pela ajuda do All-Star Pau Gasol, Bryant levou seu time a uma vantagem de
+                            57-25 no Oeste.
+                        </p>
+                        <p>
+                            O Lakers venceu o Nuggets na primeira rodada e em 6 de maio de 2008, Bryant foi oficialmente
+                            anunciado como o MVP da liga.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA MVP
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Star
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                All-NBA First Team
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Defensive First Team
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                Gold medal in FIBA Americas Championship - Las Vegas
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="08-09-tab-pane" role="tabpanel" aria-labelledby="08-09-tab"
+                        tabindex="0">
+                        <h3 class="title-timeline">2008 - 2009</h3>
+                        <p>
+                            Em um jogo contra o Knicks em 2 de fevereiro de 2009, Bryant marcou 61 pontos, estabelecendo
+                            um recorde de mais pontos marcados no Madison Square Garden.
+                        </p>
+                        <p>
+                            Durante o All-Star Game da <abbr title="National Basketball Association">NBA</abbr> de 2009,
+                            Bryant somou 27 pontos, 4 assistências, 4 rebotes e 4 roubos de bola e foi premiado como MVP
+                            do All-Star Game jogando com seu ex-companheiro de equipe O'Neal.
+                        </p>
+                        <p>
+                            O Lakers terminou a temporada regular com o melhor recorde do Oeste (65–17). Bryant foi
+                            vice-campeão na votação de MVP, atrás de James, e foi selecionado para o All-NBA First Team
+                            e All-Defensive First Team pela sétima vez em sua carreira.
+                        </p>
+                        <p>
+                            Nos playoffs, o Lakers derrotou o Orlando Magic em cinco jogos. Bryant conquistou seu
+                            primeiro troféu de MVP das finais da
+                            <abbr title="National Basketball Association">NBA</abbr> ao vencer seu quarto campeonato,
+                            com média de 32,4 pontos, 7,4 assistências, 5,6 rebotes, 1,4 roubos de bola e 1,4 bloqueios.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA champion
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA finals MVP
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Star
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Star Game MVP
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                All-NBA First Team
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Defensive First Team
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="09-10-tab-pane" role="tabpanel" aria-labelledby="09-10-tab"
+                        tabindex="0">
+                        <h3 class="title-timeline">2009 - 2010</h3>
+                        <p>
+                            Durante a temporada 2009-10, Bryant acertou seis arremessos para a vitória, incluindo uma
+                            cesta de três pontos de uma perna contra o Miami Heat em 4 de dezembro de 2009. Bryant
+                            considerou o arremesso "um dos mais sortudos que ele fez".
+                        </p>
+                        <p>
+                            Bryant também se tornou o jogador mais jovem (31 anos e 151 dias) a atingir 25.000 pontos na
+                            carreira durante a temporada, ultrapassando Chamberlain.
+                        </p>
+                        <p>
+                            O Lakers venceu o Utah Jazz na segunda rodada e avançou para as finais da Conferência Oeste,
+                            onde enfrentou o Phoenix Suns. No jogo 2, Bryant terminou o jogo com 13 assistências,
+                            estabelecendo um novo recorde de carreira nos playoffs; foi o maior número de assistências
+                            de um Laker nos playoffs desde que Magic Johnson teve 13 em 1996.
+                        </p>
+                        <p>
+                            Em uma revanche contra o campeão Boston Celtics de 2008 , Bryant, apesar de acertar 6 de 24
+                            em campo, liderou o Lakers de uma desvantagem de 13 pontos no terceiro quarto no jogo 7 para
+                            ganhar o campeonato; ele marcou 10 de seus 23 pontos, o melhor do jogo, no quarto período e
+                            terminou o jogo com 15 rebotes. Bryant ganhou seu quinto campeonato e ganhou seu segundo
+                            prêmio consecutivo de MVP das Finais da
+                            <abbr title="National Basketball Association">NBA</abbr>. Isso marcou a primeira vez que o
+                            Lakers venceu um jogo 7 contra o Boston Celtics nas finais da
+                            <abbr title="National Basketball Association">NBA</abbr>. Bryant disse que este foi o mais
+                            satisfatório de todos os seus cinco campeonatos.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA champion
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA finals MVP
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Star
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                All-NBA First Team
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Defensive First Team
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="10-11-tab-pane" role="tabpanel" aria-labelledby="10-11-tab"
+                        tabindex="0">
+                        <h3 class="title-timeline">2010 - 2011</h3>
+                        <p>
+                            Bryant queria um sexto título igual ao total de Jordan. O Lakers começou a temporada 2010-11
+                            vencendo seus primeiros oito jogos. Em seu nono jogo da temporada, contra o Denver Nuggets,
+                            Bryant se tornou o jogador mais jovem da história da
+                            <abbr title="National Basketball Association">NBA</abbr> a atingir 26.000 pontos na
+                            carreira.
+                        </p>
+                        <p>
+                            Bryant também registrou seu primeiro triplo-duplo desde 21 de janeiro de 2009. Em 30 de
+                            janeiro contra o Celtics, ele se tornou o jogador mais jovem a marcar 27.000 pontos.
+                        </p>
+                        <p>
+                            Em 1º de fevereiro de 2011, Bryant se tornou um dos sete jogadores com pelo menos 25.000
+                            pontos, 5.000 rebotes e 5.000 assistências.
+                        </p>
+                        <p>
+                            Bryant, selecionado para seu 13º jogo consecutivo do All-Star depois de se tornar o mais
+                            votado, teve 37 pontos, 14 rebotes e três roubos de bola no All-Star Game de 2011 e ganhou
+                            seu quarto All-Star MVP, empatando com o Hall of Famer Bob Pettit pelo maior número de
+                            prêmios All-Star MVP.
+                        </p>
+                        <p>
+                            Durante a temporada, Bryant passou do 12º para o 6º lugar na lista de pontuadores de todos
+                            os tempos da <abbr title="National Basketball Association">NBA</abbr>, ultrapassando John
+                            Havlicek, Dominique Wilkins, Oscar Robertson, Hakeem Olajuwon, Elvin Hayes e Moses Malone.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Star
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Star Game MVP
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                All-NBA First Team
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Defensive First Team
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="11-12-tab-pane" role="tabpanel" aria-labelledby="11-12-tab"
+                        tabindex="0">
+                        <h3 class="title-timeline">2011 - 2012</h3>
+                        <p>
+                            Em 10 de janeiro de 2012, Bryant marcou 48 pontos contra o Suns. "Nada mal para o sétimo
+                            melhor jogador da liga", disse Bryant, referindo-se ao ranking de pré-temporada da ESPN dos
+                            melhores jogadores da <abbr title="National Basketball Association">NBA</abbr>.
+                        </p>
+                        <p>
+                            Ele passou a marcar 40, 42 e 42 em seus próximos três jogos. Foi a sexta vez na carreira que
+                            marcou 40 ou mais pontos em quatro jogos seguidos, feito superado apenas por Chamberlain (19
+                            vezes).
+                        </p>
+                        <p>
+                            No All-Star Game da <abbr title="National Basketball Association">NBA</abbr> de 2012, Bryant
+                            marcou 27 pontos para ultrapassar Jordan como o líder de pontuação da carreira no All-Star
+                            Game.
+                        </p>
+                        <p>
+                            Em 2 de novembro de 2012, Bryant marcou 40 pontos com dois roubos de bola e ultrapassou
+                            Magic Johnson (1.724) como o líder da carreira do Lakers em roubos de bola.
+                        </p>
+                        <p>
+                            Em 5 de dezembro contra o New Orleans, Bryant se tornou o jogador mais jovem (34 anos e 104
+                            dias) na história da liga a marcar 30.000 pontos, juntando-se ao Hall of Fame Chamberlain,
+                            Jordan, Kareem Abdul-Jabbar e Karl Malone como um dos cinco jogadores a alcançar esse marco.
+                        </p>
+                        <p>
+                            Em 18 de dezembro, em uma vitória por 101–100 sobre o Charlotte Bobcats, Bryant marcou mais
+                            de 30 pontos em seu sétimo jogo consecutivo, a mais longa sequência de um jogador da <abbr
+                                title="National Basketball Association">NBA</abbr> após completar 34 anos; foi a
+                            quarta seqüência mais longa desse tipo em sua carreira.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Star
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                All-NBA First Team
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Defensive Second Team
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="12-13-tab-pane" role="tabpanel" aria-labelledby="12-13-tab"
+                        tabindex="0">
+                        <h3 class="title-timeline">2012 - 2013</h3>
+                        <p>
+                            Em 10 de abril de 2013, Bryant se tornou o primeiro jogador na história da
+                            <abbr title="National Basketball Association">NBA</abbr> a conseguir 47 pontos, oito
+                            rebotes, cinco assistências, quatro bloqueios e três roubadas de bola em um jogo da
+                            <abbr title="National Basketball Association">NBA</abbr>.
+                        </p>
+                        <p>
+                            Oito vezes ele alcançou 40 pontos durante a temporada e onze vezes teve 10 ou mais
+                            assistências em sua função de armador, apelidado de "Magic Mamba" devido às habilidades
+                            de passe de Magic Johnson. As assistências de Bryant foram as segundas mais altas de sua
+                            carreira e sua porcentagem de arremessos de campo foi a maior desde 2008-09.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Star
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                All-NBA First Team
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                Gold medal in Olympic Games Beijing
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="13-14-tab-pane" role="tabpanel" aria-labelledby="13-14-tab"
+                        tabindex="0">
+                        <h3 class="title-timeline">2013 - 2014</h3>
+                        <p>
+                            Naquela temporada, o Lakers decidiu poupá-lo de menos minutos de jogo devido a lesões e, em
+                            12 de março de 2014, ele não jogou até o final da temporada, citando a necessidade de mais
+                            reabilitação.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Star
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="14-15-tab-pane" role="tabpanel" aria-labelledby="14-15-tab"
+                        tabindex="0">
+                        <h3 class="title-timeline">2014 - 2015</h3>
+                        <p>
+                            Em 30 de novembro de 2014, em uma vitória por 129-122 na prorrogação contra o Toronto
+                            Raptors, Bryant registrou seu 20º triplo-duplo na carreira com 31 pontos, 12 assistências e
+                            11 rebotes.
+                        </p>
+                        <p>
+                            Aos 36 anos, ele se tornou o jogador da
+                            <abbr title="National Basketball Association">NBA</abbr> mais velho a marcar 30 pontos, 10
+                            rebotes e 10 assistências em um jogo.
+                        </p>
+                        <p>
+                            Em 14 de dezembro, Bryant se tornou o terceiro maior pontuador de todos os tempos da
+                            <abbr title="National Basketball Association">NBA</abbr>, ultrapassando Jordan (32.292) na
+                            vitória por 100-94 contra o Minnesota.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Star
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="15-16-tab-pane" role="tabpanel" aria-labelledby="15-16-tab"
+                        tabindex="0">
+                        <h3 class="title-timeline">2015 - 2016</h3>
+                        <p>
+                            Ele jogou na abertura da temporada para começar sua 20ª temporada com o Lakers, superando o
+                            recorde de John Stockton na liga de 19 em mais temporadas com o mesmo time.
+                        </p>
+                        <p>
+                            Em 1º de dezembro de 2015, Bryant jogou sua última partida contra o time de sua cidade
+                            natal, o Philadelphia 76ers, onde o Lakers perdeu por 103–91.
+                        </p>
+                        <p>
+                            Em 29 de novembro de 2015, Bryant anunciou via The Players 'Tribune que se aposentaria no
+                            final da temporada. Em seu poema intitulado "Dear Basketball", Bryant escreveu que se
+                            apaixonou pelo jogo aos seis anos: "Um amor tão profundo que te dei tudo de mim / De minha
+                            mente e corpo / Para meu espírito e alma." A temporada 2015-16 "é tudo que me resta para
+                            dar./Meu coração aguenta as batidas/Minha mente aguenta a rotina/Mas meu corpo sabe que é
+                            hora de dizer adeus./E tudo bem./Estou pronto para deixar você ir." Em uma carta distribuída
+                            aos fãs do Lakers antes do jogo daquela noite contra o Indiana Pacers, Bryant escreveu: "O
+                            que você fez por mim é muito maior do que qualquer coisa que fiz por você. Meu amor por esta
+                            cidade, este time e por cada um de vocês nunca desaparecerá. Obrigado por esta jornada
+                            incrível."
+                        </p>
+                        <p>
+                            Em 3 de fevereiro, Bryant fez sete cestas de três pontos e marcou 38 pontos, o recorde da
+                            temporada.
+                        </p>
+                        <p>
+                            Ele se tornou apenas o quarto jogador da
+                            <abbr title="National Basketball Association">NBA</abbr> com mais de 37 anos a registrar
+                            pelo menos 35 pontos, cinco rebotes e cinco assistências em um jogo.
+                        </p>
+                        <p>
+                            Bryant foi o líder geral em votação para o All-Star Game 2016 com 1,9 milhão de votos, à
+                            frente de 1,6 milhão de Stephen Curry.
+                        </p>
+                        <p>
+                            No final da temporada em 13 de abril, Bryant marcou 60 pontos, o recorde da temporada da
+                            <abbr title="National Basketball Association">NBA</abbr>, contra o Utah em seu último jogo
+                            da <abbr title="National Basketball Association">NBA</abbr>, superando todo o time do Jazz
+                            por 23-21 no quarto período, na vitória do Lakers por 101-96.
+                        </p>
+                        <p>
+                            Ele se tornou o jogador mais velho a marcar 60 ou mais pontos em uma partida, aos 37 anos e
+                            234 dias.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade show" id="total-tab-pane" role="tabpanel" aria-labelledby="total-tab"
+                        tabindex="0">
+                        <h3 class="title-timeline ">Total de highlights e prêmios na carreira:</h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                <span class="badge bg-secondary">5x</span>
+                                NBA Champion (2000–2002, 2009, 2010)
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                <span class="badge bg-secondary">2x</span>
+                                NBA Finals MVP (2009, 2010)
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA Most Valuable Player (2008)
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                <span class="badge bg-secondary">18x</span>
+                                NBA All-Star (1998, 2000–2016)
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                <span class="badge bg-secondary">4x</span>
+                                NBA All-Star Game MVP (2002, 2007, 2009, 2011)
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                <span class="badge bg-secondary">11x</span>
+                                All-NBA First Team (2002–2004, 2006–2013)
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                <span class="badge bg-secondary">2x</span>
+                                All-NBA Second Team (2000, 2001)
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                <span class="badge bg-secondary">2x</span>
+                                All-NBA Third Team (1999, 2005)
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                <span class="badge bg-secondary">9x</span>
+                                NBA All-Defensive First Team (2000, 2003, 2004, 2006–2011)
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                <span class="badge bg-secondary">3x</span>
+                                NBA All-Defensive Second Team (2001, 2002, 2012)
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                <span class="badge bg-secondary">2x</span>
+                                NBA scoring champion (2006, 2007)
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA Slam Dunk Contest champion (1997)
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA All-Rookie Second Team (1997)
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                NBA 75th Anniversary Team
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                Nos. 8 & 24 retired by Los Angeles Lakers
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                Naismith Prep Player of the Year (1996)
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                First-team Parade All-American (1996)
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                Fourth-team Parade All-American (1995)
+                            </li>
+                            <li class="list-group-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935z" />
+                                </svg>
+                                McDonald's All-American (1996)
+                            </li>
+                        </ul>
+                        <dl>
+                            <dt>Estatísticas da carreira</dt>
+                            <dd>Pontos 33,643 (25.0 <abbr title="pontos por jogo">PPG</abbr>)</dd>
+                            <dd>Rebotes 7,047 (5.2 <abbr title="rebote por jogo">RPG</abbr>)</dd>
+                            <dd>Assistências 6,306 (4.7 <abbr title="assistências por jogo">APG</abbr>)</dd>
+                        </dl>
+                        <p>Veja mais detalhes no
+                            <a href="https://www.nba.com/stats/player/977/career" target="_blank"
+                                title="Acessar a página oficial da NBA com todas estatísticas do Kobe Bryant">
+                                website oficial da
+                                <abbr title="National Basketball Association">NBA</abbr>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="18-tab-pane" role="tabpanel" aria-labelledby="18-tab" tabindex="0">
+                        <h3 class="title-timeline">2018</h3>
+                        <p>
+                            Em 23 de outubro de 2018, o livro de Bryant The Mamba Mentality: How I Play foi lançado.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="20-tab-pane" role="tabpanel" aria-labelledby="20-tab" tabindex="0">
+                        <h3 class="title-timeline">2020</h3>
+                        <p>
+                            Kobe Bryant faleceu em janeiro de 2020, vítima de um acidente de helicóptero.
+                        </p>
+                    </div>
+                </div>
+            </section>
         </article>
     </main>
 

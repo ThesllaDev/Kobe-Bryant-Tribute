@@ -38,7 +38,8 @@ body {
     background-color: $secondary-purple;
 }
 
-.dropdown-item {
+.dropdown-item,
+p a {
     color: $white-color;
 }
 
@@ -80,19 +81,24 @@ body {
     border-color: $black-color;
 }
 
-#about {
+#about div,
+.timeline-description,
+.nav-tabs,
+.tab-content {
+    background-color: $secondary-purple;
+    border-radius: $small-gap;
+    box-shadow: $small-gap $small-gap $small-gap $small-gap rgba(0, 0, 0, 0.5);
+}
 
-    div {
-        background-color: $secondary-purple;
-        border-radius: $small-gap;
-        box-shadow: $small-gap $small-gap $small-gap $small-gap rgba(0, 0, 0, 0.5);
-        margin-bottom: $large-gap;
-        padding: $large-gap $small-gap;
-    }
+#about div,
+.timeline-description {
+    margin-bottom: $large-gap;
+    padding: $large-gap $small-gap;
+}
 
-    p {
-        margin-bottom: 24px;
-    }
+#about p,
+.tab-content p {
+    margin-bottom: 24px;
 }
 
 .title-section {
@@ -114,6 +120,51 @@ p {
     margin: 0 auto;
     max-width: 80ch;
     text-align: center;
+}
+
+.nav-tabs {
+    justify-content: center;
+}
+
+.dropdown-toggle:hover {
+    color: $black-color;
+}
+
+.tab-content {
+    padding: $large-gap $small-gap;
+}
+
+.title-timeline {
+    padding: $large-gap 0;
+}
+
+.title-timeline,
+dl {
+    text-align: center;
+}
+
+.list-group- {
+    &flush {
+        margin: 0 auto;
+        max-width: 80ch;
+    }
+
+    &item {
+        background: none;
+        font-weight: 600;
+
+        &:nth-child(odd) {
+            background-color: rgba(0, 0, 0, 0.08);
+        }
+
+        &:hover {
+            background-color: rgba(240, 240, 240, 0.24);
+        }
+    }
+}
+
+dl {
+    margin-top: 24px;
 }
 
 @media (min-width: 991px) {

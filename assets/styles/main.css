@@ -23,7 +23,8 @@ body {
   background-color: rgb(128, 99, 156);
 }
 
-.dropdown-item {
+.dropdown-item,
+p a {
   color: #f1f1f1;
 }
 
@@ -61,14 +62,23 @@ body {
   border-color: #080808;
 }
 
-#about div {
+#about div,
+.timeline-description,
+.nav-tabs,
+.tab-content {
   background-color: rgb(128, 99, 156);
   border-radius: 8px;
   box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+#about div,
+.timeline-description {
   margin-bottom: 24px;
   padding: 24px 8px;
 }
-#about p {
+
+#about p,
+.tab-content p {
   margin-bottom: 24px;
 }
 
@@ -90,6 +100,46 @@ p {
   margin: 0 auto;
   max-width: 80ch;
   text-align: center;
+}
+
+.nav-tabs {
+  justify-content: center;
+}
+
+.dropdown-toggle:hover {
+  color: #080808;
+}
+
+.tab-content {
+  padding: 24px 8px;
+}
+
+.title-timeline {
+  padding: 24px 0;
+}
+
+.title-timeline,
+dl {
+  text-align: center;
+}
+
+.list-group-flush {
+  margin: 0 auto;
+  max-width: 80ch;
+}
+.list-group-item {
+  background: none;
+  font-weight: 600;
+}
+.list-group-item:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.list-group-item:hover {
+  background-color: rgba(240, 240, 240, 0.24);
+}
+
+dl {
+  margin-top: 24px;
 }
 
 @media (min-width: 991px) {
