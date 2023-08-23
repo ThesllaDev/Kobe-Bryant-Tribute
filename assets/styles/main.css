@@ -6,7 +6,7 @@ body {
   font-weight: bold;
 }
 .navbar-toggler {
-  background-color: #FDB927;
+  background-color: #fdb927;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -47,7 +47,7 @@ p a {
 .main-title,
 .title-section,
 .title-timeline {
-  color: #FDB927;
+  color: #fdb927;
 }
 
 .secondary-title {
@@ -65,7 +65,8 @@ p a {
 #about div,
 .timeline-description,
 .nav-tabs,
-.tab-content {
+.tab-content,
+.carousel-style {
   background-color: rgb(128, 99, 156);
   border-radius: 8px;
   box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.5);
@@ -138,8 +139,16 @@ dl {
   background-color: rgba(240, 240, 240, 0.24);
 }
 
-dl {
-  margin-top: 24px;
+.carousel-style {
+  color: #080808;
+  font-weight: bold;
+  max-width: 900px;
+  padding: 24px;
+  text-align: center;
+}
+
+.blockquote-footer {
+  color: #080808;
 }
 
 @media (min-width: 991px) {
@@ -147,5 +156,10 @@ dl {
     align-items: center;
     display: flex;
     justify-content: center;
+  }
+}
+@media (max-width: 500px) {
+  .carousel-indicators {
+    display: none;
   }
 }
