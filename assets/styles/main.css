@@ -6,7 +6,7 @@ body {
   font-weight: bold;
 }
 .navbar-toggler {
-  background-color: #FDB927;
+  background-color: #fdb927;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -47,7 +47,7 @@ p a {
 .main-title,
 .title-section,
 .title-timeline {
-  color: #FDB927;
+  color: #fdb927;
 }
 
 .secondary-title {
