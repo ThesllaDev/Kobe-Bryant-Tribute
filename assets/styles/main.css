@@ -151,6 +151,13 @@ dl {
   color: #080808;
 }
 
+footer {
+  background-color: #080808;
+  color: #f1f1f1;
+  padding: 24px;
+  width: 100%;
+}
+
 @media (min-width: 991px) {
   .navbar-expanded {
     align-items: center;

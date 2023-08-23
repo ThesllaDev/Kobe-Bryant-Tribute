@@ -84,12 +84,8 @@ p a {
 #about div,
 .timeline-description,
 .nav-tabs,
-<<<<<<< HEAD
-.tab-content {
-=======
 .tab-content,
 .carousel-style {
->>>>>>> carousel-section
   background-color: $secondary-purple;
   border-radius: $small-gap;
   box-shadow: $small-gap $small-gap $small-gap $small-gap rgba(0, 0, 0, 0.5);
@@ -168,10 +164,6 @@ dl {
   }
 }
 
-<<<<<<< HEAD
-dl {
-  margin-top: 24px;
-=======
 .carousel-style {
   color: $black-color;
   font-weight: bold;
@@ -182,7 +174,13 @@ dl {
 
 .blockquote-footer {
   color: $black-color;
->>>>>>> carousel-section
+}
+
+footer {
+  background-color: $black-color;
+  color: $white-color;
+  padding: $large-gap;
+  width: 100%;
 }
 
 @media (min-width: 991px) {
@@ -192,12 +190,9 @@ dl {
     justify-content: center;
   }
 }
-<<<<<<< HEAD
-=======
 
 @media (max-width: 500px) {
   .carousel-indicators {
     display: none;
   }
 }
->>>>>>> carousel-section
