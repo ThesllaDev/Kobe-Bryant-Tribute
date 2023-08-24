@@ -139,6 +139,10 @@ dl {
   background-color: rgba(240, 240, 240, 0.24);
 }
 
+dl {
+  margin-top: 24px;
+}
+
 .carousel-style {
   color: #080808;
   font-weight: bold;
